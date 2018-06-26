@@ -16,7 +16,7 @@ const multiKey = require('hypercore-multi-key')
 
 // returns a new feed that is identical as the one passed
 // but signed by a new key pair
-const newFeed = multiFeed(feed)
+const newFeed = multiKey(feed)
 
 feed.append('hello')
 newFeed.get(0, console.log) // returns 'hello'
