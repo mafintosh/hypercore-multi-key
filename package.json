@@ -1,0 +1,21 @@
+{
+  "name": "hypercore-multi-key",
+  "version": "0.0.0",
+  "description": "Function that takes a hypercore and returns a new one that is signed by a new key pair but backed by the same data",
+  "main": "index.js",
+  "dependencies": {
+    "hypercore": "^6.16.0",
+    "random-access-storage": "^1.3.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mafintosh/hypercore-multi-key.git"
+  },
+  "author": "Mathias Buus (@mafintosh)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mafintosh/hypercore-multi-key/issues"
+  },
+  "homepage": "https://github.com/mafintosh/hypercore-multi-key"
+}
