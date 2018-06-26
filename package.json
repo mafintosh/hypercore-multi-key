@@ -1,6 +1,6 @@
 {
   "name": "hypercore-multi-key",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Function that takes a hypercore and returns a new one that is signed by a new key pair but backed by the same data",
   "main": "index.js",
   "dependencies": {
