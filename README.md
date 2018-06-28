@@ -24,7 +24,7 @@ newFeed.get(0, console.log) // returns 'hello'
 
 ## API
 
-#### `newFeed = multiFeed(feed, [keyPair], [options])`
+#### `newFeed = multiKey(feed, [keyPair], [options])`
 
 Create a new hypercore that is backed by the same data as another
 one but signed by a new key pair.
