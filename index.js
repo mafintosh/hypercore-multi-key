@@ -1,4 +1,4 @@
-const crypto = require('hypercore/lib/crypto')
+const crypto = require('hypercore-crypto')
 const hypercore = require('hypercore')
 const storage = require('./storage')
 
