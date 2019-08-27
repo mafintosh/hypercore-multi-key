@@ -11,7 +11,7 @@ function storage (feed, keyPair) {
     if (name === 'tree') return feed._storage.tree
     if (name === 'signatures') return createSignature(feed, keyPair)
     if (name === 'key') return ram(keyPair.key || keyPair.publicKey)
-    return ras({write: nullWrite})
+    return ras({ write: nullWrite })
   }
 }
 

@@ -4,12 +4,17 @@
   "description": "Function that takes a hypercore and returns a new one that is signed by a new key pair but backed by the same data",
   "main": "index.js",
   "dependencies": {
-    "hypercore": "^6.16.0",
+    "hypercore": "^7.6.1",
     "hypercore-crypto": "^1.0.0",
-    "random-access-memory": "^3.0.0",
-    "random-access-storage": "^1.3.0"
+    "random-access-memory": "^3.1.1",
+    "random-access-storage": "^1.4.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "standard": "^14.0.2"
+  },
+  "scripts": {
+    "test": "standard"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/mafintosh/hypercore-multi-key.git"
