@@ -17,8 +17,8 @@ feed.append(['a', 'b', 'c'], function () {
 
   const clone = hypercore(ram, otherFeed.key)
 
-  const stream = otherFeed.replicate({ live: true })
-  stream.pipe(clone.replicate({ live: true })).pipe(stream)
+  const stream = otherFeed.replicate(true, { live: true })
+  stream.pipe(clone.replicate(false, { live: true })).pipe(stream)
 
   clone.get(3, console.log)
 })

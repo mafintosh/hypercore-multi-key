@@ -4,8 +4,8 @@
   "description": "Function that takes a hypercore and returns a new one that is signed by a new key pair but backed by the same data",
   "main": "index.js",
   "dependencies": {
-    "hypercore": "^8.1.2",
-    "hypercore-crypto": "^1.0.0",
+    "hypercore": "^9.0.0",
+    "hypercore-crypto": "^2.1.0",
     "random-access-memory": "^3.1.1",
     "random-access-storage": "^1.4.0"
   },
